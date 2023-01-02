@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+form{
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2vh 3vw;
+}
+
+.label, .input{
+    width: 15vw;
+}
+
+.label{
+    background-color: blue;
+    margin-top: 1vh;
+}
+
+.input{
+    background-color: green;
+    margin-left: 20vw;
+    margin-top: -2.8vh;
+}
+
