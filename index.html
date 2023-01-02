@@ -26,77 +26,78 @@
         <form action="">
 
             <!-- ********************** section Überschrift ******** -->
+            <section class="section__überschrift">
                 <h2>Sign Up Now!</h2>
                 <p>Sign up an tell what you want</p>
+            </section>
 
             <!-- ******************* section Name Adress ******** -->
-        
-                
-                    <p>1</p>
-                    <h3>First Name & Address</h3>
+
+            <p class="dot">1</p>
+            <h3>First Name & Address</h3>
+
+            <!-- ******************* Name ************ -->
+            <label class="label" for="name">Your full Name</label>
+            <input class="input" type="text" name="name" id="name" required>
+
+            <!-- *************** Address *********** -->
+            <label class="label" for="address">Address</label>
+            <input class="input" type="text" name="address" id="address">
 
 
-                <!-- ******************* Name ************ -->
-                    <label class="label" for="name">Your full Name</label>
-                    <input class="input" type="text" name="name" id="name" required>
-
-                <!-- *************** Address *********** -->
-                    <label class="label" for="address">Address</label>
-                    <input class="input" type="text" name="address" id="address">
-
-            
 
 
 
 
             <!-- ***************** section Email Phone ********** -->
 
-                    <p>2</p>
-                    <h3>Email & Phone</h3>
+            <p class="dot">2</p>
+            <h3>Email & Phone</h3>
 
-                <!-- ***************** Email ************* -->
+            <!-- ***************** Email ************* -->
 
-                    <label class="label" for="email">Email Address</label>
-                    <input class="input" type="email" name="email" id="email">
+            <label class="label" for="email">Email Address</label>
+            <input class="input" type="email" name="email" id="email">
 
-                <!-- **************** Phone tel ************ -->
+            <!-- **************** Phone tel ************ -->
 
-                    <label class="label" for="tel">Phone Number</label>
-                    <input class="input" type="number" name="tel" id="tel">
+            <label class="label" for="tel">Phone Number</label>
+            <input class="input" type="number" name="tel" id="tel">
 
 
 
 
 
             <!-- ******************* section Password ************* -->
-                    <p>3</p>
-                    <h3>Passwords</h3>
+            <p class="dot">3</p>
+            <h3>Passwords</h3>
 
-                <!-- *************** Password ************** -->
-                    <label class="label" for="password">Password</label>
-                    <input class="input" type="password" name="password" id="password">
+            <!-- *************** Password ************** -->
+            <label class="label" for="password">Password</label>
+            <input class="input" type="password" name="password" id="password">
 
-                <!-- *************** Password Confirm *********** -->
-
-                
-                    <label class="label" for="password__confirm">Confim Password</label>
-                    <input class="input" type="password" name="password__confirm" id="password__confirm">
-
-                
+            <!-- *************** Password Confirm *********** -->
 
 
-<!-- ********************** Button und Checkbox ************** -->
+            <label class="label" for="password__confirm">Confim Password</label>
+            <input class="input" type="password" name="password__confirm" id="password__confirm">
 
 
 
-        <input class="submit" type="submit" value="Submit">
+
+            <!-- ********************** Button und Checkbox ************** -->
 
 
+            <section class="buttomUndAgree">
+                <input class="submit" type="submit" value="Submit">
 
-        <input type="checkbox" name="agree" id="agree" required>
-        <label for="agree">You agree to your Termes and Policy. </label>
 
-    
+                <div>
+                    <input type="checkbox" name="agree" id="agree" required>
+                    <label for="agree">You agree to your Termes and Policy. </label>
+                </div>
+            </section>
+
 
         </form>
 

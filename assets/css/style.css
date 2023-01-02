@@ -15,19 +15,50 @@ form{
     border: 1px solid grey;
 }
 
+/* ********************** section Überschrift ******** */
+
+.section__überschrift{
+    background-color: #3382a0;
+}
+
 
 
 .label, .input{
-    
-    width: 30vw;
+        width: 30vw;
 }
 
 .label{
-    background-color: blue;
     margin-top: 1vh;
+    color: rgb(80, 78, 78);
+    font-size: 0.8rem;
 }
 
 .input{
-    background-color: green;
+border: 1px solid rgb(208, 204, 204);
 }
 
+h2, p{
+    color: #b4d8e5;
+
+}
+
+h3 {
+    color: #3a9dc1;
+}
+
+.dot{
+    width: 20px;
+    border-radius: 50rem;
+    padding-left: 0.5vw;
+    margin-left: -2.5vw;
+    position:relative;
+    top: 19px;
+    background-color: #3382a0;
+}
+
+.buttomUndAgree{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh ;
+}
