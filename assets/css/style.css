@@ -12,10 +12,14 @@ form{
     flex-direction: column;
     margin: 0 auto;
     padding: 2vh 3vw;
+    border: 1px solid grey;
 }
 
+
+
 .label, .input{
-    width: 15vw;
+    
+    width: 30vw;
 }
 
 .label{
@@ -25,7 +29,5 @@ form{
 
 .input{
     background-color: green;
-    margin-left: 20vw;
-    margin-top: -2.8vh;
 }
 
