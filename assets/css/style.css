@@ -19,6 +19,8 @@ form{
 
 .section__überschrift{
     background-color: #3382a0;
+    padding: 2vh 2vw;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 
@@ -57,7 +59,6 @@ h3 {
 }
 
 .buttomUndAgree{
-    background-color: red;
     width: 30vw;
     display: flex;
     justify-content: space-between;
@@ -78,7 +79,6 @@ h3 {
 }
 
 .buttomUndAgree>div{
-    background-color: blue;
     width: 15vw;
     font-size: 0.6rem;
 }
