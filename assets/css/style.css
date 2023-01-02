@@ -58,7 +58,27 @@ h3 {
 
 .buttomUndAgree{
     background-color: red;
+    width: 30vw;
     display: flex;
     justify-content: space-between;
-    margin: 3vh ;
+    align-items: center;
+    margin: 3vh 0 1vh 0 ;
+}
+
+.buttomUndAgree>input{
+    padding: 1vh 2vw;
+    background-color: #3382a0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.buttomUndAgree>input:hover{
+    background-color: #2c1e70;
+    border: 3px solid aqua;
+}
+
+.buttomUndAgree>div{
+    background-color: blue;
+    width: 15vw;
+    font-size: 0.6rem;
 }
